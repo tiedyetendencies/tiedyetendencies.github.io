@@ -1,0 +1,154 @@
+@media only screen and (max-width: 1150px) {
+    header{
+        width: 1200px;
+    }
+    
+    section{
+        width: 1200px;
+    }
+    
+    .about-content-one{
+        display: block;
+    }
+    
+    .about-content-two{
+        display: block;
+        margin-left: 200px;
+    }
+    
+    .content{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    
+    .about-content-two{
+        margin-left: 520px;
+        margin-top: -172px;        
+    }
+    
+    #custom{
+        margin-right: -100px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    
+    
+    
+    .about-content-one{
+        float: none;
+        margin-left: 250px;
+        display: block;
+    }
+    
+    .about-content-two{
+        float: none;
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+    
+    .content{
+        margin-top: 20px;
+    }
+    
+    .about-content-three{
+        margin-left: 220px;
+    }
+    
+    #other{
+        display: block;
+        margin-left: 250px;
+    }
+    
+    #custom{
+        display: block;
+        float: none;
+        margin-left: 250px;
+        margin-top: 20px;
+    }
+} 
+
+@media only screen and (max-width: 480px) {
+    
+    html{
+        font-size: 250%;
+        height: auto;
+    }
+    
+    h2,
+    h3{
+        font-size: 200%;
+    }
+
+    header{
+        width: 650px;
+        height: auto;
+        zoom: 2.5;
+        margin-top: 0;
+        padding-top: 200px;
+        top: 0;
+    }
+    
+    section{
+        width: 650px;
+        zoom: 2.5;
+    }
+    
+    .main-nav{
+        width: 650px;
+        font-size: 105%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    ,main-nav li {
+        font-size: 110%;
+    }
+    
+    .hero-text-box{
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 250px;
+        background: rgba(0, 0, 0, 0);
+    }
+        
+    .about-content-one{
+        margin-left: 50px;
+    }
+    
+    .about-content-two{
+        margin-left: 60px;
+        width: 400px;
+        height: auto;
+        font-size: 150%;
+    }
+    
+    .about-content-three{
+        margin-left: 35px;
+    }
+    
+    .order-content{
+        width: 400px;
+    }
+    
+    .product-item{
+        margin-left: 160px;
+        height: auto;
+    }
+    
+    #other,
+    #custom{
+        margin-left: 80px;
+        height: 700px;
+        border: 1px solid #000;
+    }
+    
+    .other-content{
+        border: none;
+        margin-left: 20px;
+    }
+    
+} 
+   
