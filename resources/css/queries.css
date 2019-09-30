@@ -81,6 +81,10 @@
     h3{
         font-size: 200%;
     }
+    
+    h2{
+        text-align: center;
+    }
 
     header{
         width: 650px;
@@ -113,24 +117,35 @@
         padding-bottom: 250px;
         background: rgba(0, 0, 0, 0);
     }
+    
+    .make-it-btn{
+        font-family: 'Amatic SC' , cursive
+    }
+    
+    .view-products-btn{
+        font-family: 'Amatic SC' , cursive
+    }
         
     .about-content-one{
         margin-left: 50px;
+        width: 500px;
     }
     
     .about-content-two{
         margin-left: 60px;
-        width: 400px;
+        width: 500px;
         height: auto;
         font-size: 150%;
     }
     
     .about-content-three{
         margin-left: 35px;
+        width: 500px;
     }
     
     .order-content{
-        width: 400px;
+        width: 500px;
+        margin-left: 50px;
     }
     
     .product-item{
